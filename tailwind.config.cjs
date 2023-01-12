@@ -4,7 +4,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: '"SF Pro Display", -apple-system, BlinnMacSystemFonr, "Segoe UI", Roboto, Oxygen, Ubuntu, Canterall, "Open Sans", "Helvetica Neue", sans-serif',
+        sans: '"SF Pro Display", -apple-system, BlinkMacSystemFonr, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif',
+      },
+      colors: {
+        background: "#000212",
       },
     },
   },
