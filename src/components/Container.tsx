@@ -1,11 +1,11 @@
 import React from "react";
 
-const Container = () => {
-  return (
-    <div>
-      <p>Container</p>
-    </div>
-  );
+interface ContainerProps {
+  children: React.ReactNode;
+}
+
+const Container = ({ children }: ContainerProps) => {
+  return <div className="mx-auto max-w-[120rem]">{children}</div>;
 };
 
 export default Container;
