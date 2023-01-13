@@ -8,7 +8,7 @@ module.exports = {
     fontSize: {
       md: "1.6rem",
       lg: "2.2rem",
-      "5xl": "8rem",
+      "5xl": ["8rem", 1],
     },
     colors: {
       white: "#fff",
