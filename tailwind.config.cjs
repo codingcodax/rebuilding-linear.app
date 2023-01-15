@@ -6,6 +6,7 @@ module.exports = {
       sans: '"SF Pro Display", -apple-system, BlinkMacSystemFonr, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif',
     },
     fontSize: {
+      sm: '1.4rem',
       md: '1.6rem',
       lg: ['2.2rem', '1.3'],
       '5xl': ['8rem', '1'],
