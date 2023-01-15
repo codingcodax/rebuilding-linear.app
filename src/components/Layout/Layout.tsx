@@ -1,8 +1,15 @@
-const Layout = () => {
+import { Header } from '~/components';
+
+interface LayoutProps {
+  children: React.ReactNode;
+}
+
+const Layout = ({ children }: LayoutProps) => {
   return (
-    <div>
-      <p>Layout</p>
-    </div>
+    <>
+      <Header />
+      {children}
+    </>
   );
 };
 
