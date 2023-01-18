@@ -7,3 +7,9 @@
     @apply text-[62.5%];
   }
 }
+
+@layer components {
+  .container {
+    @apply mx-auto max-w-[120rem];
+  }
+}
