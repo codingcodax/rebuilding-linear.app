@@ -7,15 +7,15 @@ interface HeroElementProps {
 }
 
 const Hero = ({ children }: HeroProps) => {
-  return <div className="text-center">{children}</div>;
+  return <div className='text-center'>{children}</div>;
 };
 
 const Title = ({ children }: HeroElementProps) => (
-  <h1 className="my-6 text-5xl">{children}</h1>
+  <h1 className='my-6 text-5xl'>{children}</h1>
 );
 
 const Subtitle = ({ children }: HeroElementProps) => (
-  <h2 className="mb-11 text-lg">{children}</h2>
+  <h2 className='mb-11 text-lg'>{children}</h2>
 );
 
 Hero.Title = Title;
