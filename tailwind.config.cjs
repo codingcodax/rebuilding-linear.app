@@ -37,6 +37,10 @@ module.exports = {
       11: '4.4rem',
       12: '4.8rem',
     },
+    screens: {
+      md: '660px',
+      lg: '1001px',
+    },
   },
   plugins: [],
 };
