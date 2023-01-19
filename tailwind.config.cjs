@@ -15,6 +15,10 @@ module.exports = {
       white: '#fff',
       background: '#000212',
     },
+    backgroundImage: {
+      'primary-gradient':
+        'linear-gradient(92.83deg, #455eb5 9.16%, #5643cc 43.89%, #673fd7 64.72%)',
+    },
     spacing: {
       0: '0',
       1: '0.4rem',
