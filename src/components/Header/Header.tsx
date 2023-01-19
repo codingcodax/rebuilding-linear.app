@@ -15,37 +15,37 @@ const Header = () => {
               <Icons.Logo className='mr-2 h-[1.8rem] w-[1.8rem]' /> Linear
             </Link>
           </li>
-          <li>
+          <li className='hidden md:list-item'>
             <Link className='nav-link' href='#'>
               Features
             </Link>
           </li>
-          <li>
+          <li className='hidden md:list-item'>
             <Link className='nav-link' href='#'>
               Method
             </Link>
           </li>
-          <li>
+          <li className='hidden lg:list-item'>
             <Link className='nav-link' href='#'>
               Customers
             </Link>
           </li>
-          <li>
+          <li className='hidden lg:list-item'>
             <Link className='nav-link' href='#'>
               Changelog
             </Link>
           </li>
-          <li>
+          <li className='hidden lg:list-item'>
             <Link className='nav-link' href='#'>
               Integrations
             </Link>
           </li>
-          <li>
+          <li className='hidden md:list-item'>
             <Link className='nav-link' href='#'>
               Pricing
             </Link>
           </li>
-          <li>
+          <li className='hidden md:list-item'>
             <Link className='nav-link' href='#'>
               Company
             </Link>
