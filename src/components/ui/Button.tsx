@@ -3,7 +3,7 @@ import { cva, type VariantProps } from 'class-variance-authority';
 import { ButtonOrLink, type Props as ButtonOrLinkProps } from './ButtonOrLink';
 
 const buttonStyles = cva(
-  'inline-flex items-center justify-center rounded-full font-medium transition-[border,_background-color,_color,_box-shadow,_opacity] duration-[120ms] ease-linear [text-shadow:#00000040_0px_3px_8px] hover:shadow-[#503fcd80_0px_1px_40px] hover:[text-shadow:#0000008f_0px_3px_12px]',
+  'inline-flex items-center justify-center rounded-full font-medium transition-[border,_background-color,_color,_box-shadow,_opacity] duration-[120ms] ease-linear [text-shadow:#00000040_0px_3px_8px] hover:shadow-primary hover:[text-shadow:#0000008f_0px_3px_12px]',
   {
     variants: {
       intent: {
