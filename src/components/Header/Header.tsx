@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 import Icons from '~/components/Icons';
+import { Button } from '~/components/ui/Button';
 
 const Header = () => {
   return (
@@ -56,9 +57,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link className='primary-button h-8' href='#'>
-              Sign up
-            </Link>
+            <Button href='#'>Sign up</Button>
           </li>
         </ul>
       </nav>
