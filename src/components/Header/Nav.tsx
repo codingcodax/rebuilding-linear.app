@@ -20,7 +20,7 @@ const Nav = () => {
             </NavItem>
           ))}
 
-        <li className='ml-[auto_!important]'>
+        <li className='!ml-auto'>
           <NavLink href='#'>Log in</NavLink>
         </li>
         <li>
