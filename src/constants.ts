@@ -1,29 +1,29 @@
 export const navLinks = [
   {
     name: 'Features',
-    href: '#',
+    href: '/',
     isInTablet: true,
   },
   {
     name: 'Method',
-    href: '#',
+    href: '/',
     isInTablet: true,
   },
   {
     name: 'Customers',
-    href: '#',
+    href: '/',
   },
   {
     name: 'Changelog',
-    href: '#',
+    href: '/',
   },
   {
     name: 'Integrations',
-    href: '#',
+    href: '/',
   },
   {
     name: 'Pricing',
-    href: '#',
+    href: '/',
     isInTablet: true,
   },
   {
@@ -38,17 +38,17 @@ export const navLinks = [
   },
   {
     name: 'About',
-    href: '#',
+    href: '/',
     isMobile: true,
   },
   {
     name: 'Blog',
-    href: '#',
+    href: '/',
     isMobile: true,
   },
   {
     name: 'Careers',
-    href: '#',
+    href: '/',
     isMobile: true,
   },
 ];
