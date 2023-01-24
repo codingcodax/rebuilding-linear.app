@@ -6,6 +6,10 @@
   html {
     @apply text-[62.5%];
   }
+
+  body {
+    @apply bg-background text-white;
+  }
 }
 
 @layer components {
