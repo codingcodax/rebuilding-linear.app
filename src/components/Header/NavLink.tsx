@@ -1,5 +1,7 @@
 import Link, { type LinkProps } from 'next/link';
 
+import { cn } from '~/utils';
+
 interface Props extends LinkProps {
   children: React.ReactNode;
 }
@@ -7,7 +9,10 @@ interface Props extends LinkProps {
 const NavLink = ({ children, ...restProps }: Props) => {
   return (
     <Link
-      className='flex h-full items-center font-medium duration-[250ms] hover:text-[#8a8f98]'
+      className={cn(
+        'flex h-full items-center font-medium duration-[250ms]',
+        'hover:text-[#8a8f98]'
+      )}
       {...restProps}
     >
       {children}
