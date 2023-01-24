@@ -21,10 +21,10 @@ const Nav = () => {
           ))}
 
         <li className='!ml-auto'>
-          <NavLink href='#'>Log in</NavLink>
+          <NavLink href='/'>Log in</NavLink>
         </li>
         <li>
-          <Button href='#'>Sign up</Button>
+          <Button href='/'>Sign up</Button>
         </li>
       </ul>
 
