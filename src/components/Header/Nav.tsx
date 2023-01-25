@@ -1,6 +1,10 @@
+import { useState } from 'react';
+
 import { navLinks } from '~/constants';
 import { cn } from '~/utils';
 import { Button } from '~/components/ui/Button';
+
+import Hamburger from '../Icons/Hamburger';
 
 import Logo from './Logo';
 import NavItem from './NavItem';
@@ -8,6 +12,10 @@ import MobileNav from './MobileNav';
 import NavLink from './NavLink';
 
 const Nav = () => {
+  const [menuIsOpen, setMenuIsOpen] = useState(false);
+
+  const handleMenu = () => setMenuIsOpen((prev) => !prev);
+
   return (
     <nav className='container z-10 px-6 md:px-8'>
       <ul
@@ -32,9 +40,13 @@ const Nav = () => {
         <li>
           <Button href='/'>Sign up</Button>
         </li>
+
+        <button onClick={handleMenu}>
+          <Hamburger className='h-[1.8rem] w-[1.8rem]' />
+        </button>
       </ul>
 
-      <MobileNav />
+      {menuIsOpen && <MobileNav />}
     </nav>
   );
 };
