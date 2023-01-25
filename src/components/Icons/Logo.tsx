@@ -2,8 +2,7 @@ const Logo = ({ className }: { className?: string }) => (
   <svg
     aria-label='Linear Logotype'
     className={className}
-    color='#EEEFFC'
-    fill='#EEEFFC'
+    fill='currentColor'
     height='64'
     viewBox='0 0 64 64'
     width='64'
