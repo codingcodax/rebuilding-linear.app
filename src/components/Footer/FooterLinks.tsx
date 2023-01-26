@@ -1,8 +1,29 @@
+import Link from 'next/link';
+
+import { footerLinks } from '~/constants';
+
 const FooterLinks = () => {
   return (
-    <div>
-      <p>Footer Links</p>
-    </div>
+    <>
+      {footerLinks.map(({ title, links }) => (
+        <div key={title} className='min-w-[min(180px,_100%)]'>
+          <h3 className='mb-[1.4rem] font-medium'>{title}</h3>
+
+          <ul className='space-y-[1.4rem]'>
+            {links.map(({ name, href }) => (
+              <li key={name}>
+                <Link
+                  className='link-transition-inverse leading-[2.4rem]'
+                  href={href}
+                >
+                  {name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </>
   );
 };
 
