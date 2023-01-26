@@ -29,4 +29,12 @@
   .primary-button {
     @apply inline-flex items-center justify-center rounded-full bg-[linear-gradient(92.83deg,_#455eb5_9.16%,_#5643cc_43.89%,_#673fd7_64.72%)] px-4 font-medium transition-[border,_background-color,_color,_box-shadow,_opacity] duration-[120ms] ease-linear [text-shadow:#00000040_0px_3px_8px] hover:shadow-[#503fcd80_0px_1px_40px] hover:[text-shadow:#0000008f_0px_3px_12px];
   }
+
+  .link-transition {
+    @apply text-white transition-colors duration-[250ms] hover:text-grey;
+  }
+
+  .link-transition-inverse {
+    @apply text-grey transition-colors duration-[250ms] hover:text-white;
+  }
 }
