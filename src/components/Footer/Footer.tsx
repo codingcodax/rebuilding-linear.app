@@ -1,5 +1,7 @@
 import Link from 'next/link';
 
+import { cn } from '~/utils';
+
 import Icons from '../Icons';
 import Logo from '../Icons/Logo';
 
@@ -8,8 +10,13 @@ import FooterLinks from './FooterLinks';
 function Footer() {
   return (
     <footer className='border-t border-white/[0.08] py-[5.8rem] text-sm'>
-      <div className='container flex flex-wrap px-8 lg:flex-row'>
-        <div className='flex w-full flex-row items-center justify-between lg:mr-auto lg:flex-col lg:items-start'>
+      <div className={cn('container flex flex-wrap px-8', 'lg:flex-row')}>
+        <div
+          className={cn(
+            'flex w-full flex-row items-center justify-between',
+            'lg:mr-auto lg:flex-col lg:items-start'
+          )}
+        >
           <Link className='link-transition-inverse flex items-center' href='/'>
             <Logo className='mr-2 h-[1.8rem] w-[1.8rem] text-white' /> Linear -
             Designed Worldwide

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 import { footerLinks } from '~/constants';
+import { cn } from '~/utils';
 
 const FooterLinks = () => {
   return (
@@ -8,7 +9,10 @@ const FooterLinks = () => {
       {footerLinks.map(({ title, links }) => (
         <div
           key={title}
-          className='mt-10 min-w-[50%] lg:mt-0 lg:min-w-[min(180px,_100%)]'
+          className={cn(
+            'mt-10 min-w-[50%]',
+            'lg:mt-0 lg:min-w-[min(180px,_100%)]'
+          )}
         >
           <h3 className='mb-[1.4rem] font-medium'>{title}</h3>
 
