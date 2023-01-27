@@ -6,7 +6,10 @@ const FooterLinks = () => {
   return (
     <>
       {footerLinks.map(({ title, links }) => (
-        <div key={title} className='min-w-[min(180px,_100%)]'>
+        <div
+          key={title}
+          className='mt-10 min-w-[50%] lg:mt-0 lg:min-w-[min(180px,_100%)]'
+        >
           <h3 className='mb-[1.4rem] font-medium'>{title}</h3>
 
           <ul className='space-y-[1.4rem]'>

@@ -8,14 +8,14 @@ import FooterLinks from './FooterLinks';
 function Footer() {
   return (
     <footer className='border-t border-white/[0.08] py-[5.8rem] text-sm'>
-      <div className='container flex px-6 md:px-8'>
-        <div className='mr-auto flex flex-col justify-between'>
+      <div className='container flex flex-wrap px-8 lg:flex-row'>
+        <div className='flex w-full flex-row items-center justify-between lg:mr-auto lg:flex-col lg:items-start'>
           <Link className='link-transition-inverse flex items-center' href='/'>
             <Logo className='mr-2 h-[1.8rem] w-[1.8rem] text-white' /> Linear -
             Designed Worldwide
           </Link>
 
-          <div className='flex space-x-6'>
+          <div className='flex space-x-3 lg:space-x-6'>
             <Link className='link-transition-inverse' href='/'>
               <Icons.Twitter className='h-[1.8rem] w-[1.8rem]' />
             </Link>
