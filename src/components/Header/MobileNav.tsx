@@ -12,9 +12,9 @@ const MobileNav = ({ isOpen }: Props) => {
     <div
       className={cn(
         'bg-background',
-        'transition-opacity duration-[400ms]',
+        'transition-all duration-[400ms]',
         'md:hidden',
-        isOpen ? 'visible opacity-100' : 'invisible opacity-0'
+        isOpen ? 'visible h-full opacity-100' : 'invisible h-0 opacity-0'
       )}
     >
       <ul
